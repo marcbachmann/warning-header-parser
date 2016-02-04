@@ -1,0 +1,19 @@
+{
+  "name": "warning-header-parser",
+  "description": "Parses an http Warning header into an object with code, agent, message and date",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbachmann/warning-header-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcbachmann/warning-header-parser/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/warning-header-parser#readme"
+}
