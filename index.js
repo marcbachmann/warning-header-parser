@@ -3,7 +3,7 @@ module.exports = function parseWarningHeader (header) {
   var warnings = header.split(/([0-9]{3} [a-z0-9.@\-\/]*) /g)
   if (!warnings) return
 
-  var previous = undefined
+  var previous
   function generateObject (all, w) {
     w = w.trim()
     var newError = w.match(/^([0-9]{3}) (.*)/)

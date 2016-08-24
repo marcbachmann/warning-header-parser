@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "standard && node test.js"
   },
   "author": "Marc Bachmann <marc.brookman@gmail.com>",
   "license": "MIT",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/marcbachmann/warning-header-parser/issues"
   },
-  "homepage": "https://github.com/marcbachmann/warning-header-parser#readme"
+  "homepage": "https://github.com/marcbachmann/warning-header-parser#readme",
+  "devDependencies": {
+    "standard": "^8.0.0"
+  }
 }
