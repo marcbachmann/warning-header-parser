@@ -1,7 +1,6 @@
 module.exports = function parseWarningHeader (header) {
-  if (!header || typeof header !== 'string') return
+  if (!header || typeof header !== 'string') return []
   var warnings = header.split(/([0-9]{3} [a-z0-9.@\-\/]*) /g)
-  if (!warnings) return
 
   var previous
   function generateObject (all, w) {

@@ -14,3 +14,10 @@ assert.deepEqual(warnings[1], {code: '299', agent: 'agent2', message: 'Error mes
 // HTTP-Date format support https://tools.ietf.org/html/rfc7231#section-7.1.1.1
 var httpDate = parse('199 agent "Error message" "Sun, 06 Nov 1994 08:49:37 GMT"')
 assert.deepEqual(httpDate[0], {code: '199', agent: 'agent', message: 'Error message', date: 'Sun, 06 Nov 1994 08:49:37 GMT'})
+
+// Returns an empty array for invalid headers
+assert.equal(Array.isArray(parse()), true)
+assert.equal(parse().length, 0)
+
+assert.equal(Array.isArray(parse('')), true)
+assert.equal(parse('').length, 0)
