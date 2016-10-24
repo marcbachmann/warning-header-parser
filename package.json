@@ -1,7 +1,7 @@
 {
   "name": "warning-header-parser",
   "description": "Parses an http Warning header into an object with code, agent, message and date",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "test": "standard && node test.js"
