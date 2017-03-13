@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/marcbachmann/warning-header-parser#readme",
   "devDependencies": {
-    "standard": "^8.0.0"
+    "standard": "^9.0.1"
   }
 }
